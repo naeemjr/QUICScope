@@ -1,0 +1,17 @@
+# Build output
+/target/
+
+# Local logs and scratch results. Versioned results live in results/dev,
+# results/final, and results/preliminary.
+*.log
+*.tmp
+/results/scratch/
+/results/tmp/
+
+# Editor and OS state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store

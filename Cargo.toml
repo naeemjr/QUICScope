@@ -1,0 +1,23 @@
+[package]
+name = "quicscope"
+version = "0.1.0"
+edition = "2021"
+description = "Synthetic benchmark: when can a passive monitor claim two encrypted QUIC observations share a connection, and when should it abstain?"
+readme = "README.md"
+publish = false
+
+[lib]
+name = "quicscope"
+path = "src/lib.rs"
+
+[[bin]]
+name = "quicscope"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lints.rust]
+unsafe_code = "forbid"
