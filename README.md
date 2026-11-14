@@ -56,8 +56,7 @@ confident decisions, at association opportunities) from 18% to 0.87%,
 while the abstaining method made a confident decision at 78% of
 opportunities. It did not recover continuity: it left 28% of connections
 fragmented, against 24% for the forced method. Full results, including
-where abstention does not help:
-[INDEPENDENT_EVALUATION_AND_APPLICATION_RESULTS.md](INDEPENDENT_EVALUATION_AND_APPLICATION_RESULTS.md).
+where abstention does not help, are in the `results/final/` directory.
 
 ## Scope, dual-use framing, and synthetic-only limits
 
@@ -181,7 +180,7 @@ oracle's label.
 | What limits the conclusions? | [docs/VALIDITY_THREATS.md](docs/VALIDITY_THREATS.md) |
 | How might the interpretation be wrong? | [docs/WHY_THIS_MAY_BE_WRONG.md](docs/WHY_THIS_MAY_BE_WRONG.md) |
 | How do I rerun and verify it? | [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) |
-| Results and decision memo | [INDEPENDENT_EVALUATION_AND_APPLICATION_RESULTS.md](INDEPENDENT_EVALUATION_AND_APPLICATION_RESULTS.md) |
+| Results and evaluation | `results/final/` directory |
 | Technical report draft | [paper/technical-report.md](paper/technical-report.md) |
 
 ## Layout
@@ -210,4 +209,4 @@ results/final/          held-out results, tables, figures
 - 184 tests (150 unit, 34 integration) pass locally.
 - A CI workflow is included at the repository root
   (`.github/workflows/quicscope.yml`). It has not been run on GitHub.
-- No license has been chosen yet: see [LICENSE-TODO.md](LICENSE-TODO.md).
+- No license has been chosen yet.
